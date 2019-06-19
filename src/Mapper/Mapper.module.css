@@ -1,0 +1,17 @@
+.Mapper {
+    margin-top: auto;
+    width: 100%;
+    height: auto;
+}
+.Mapper button {
+    color: red;
+    background-color: #ddd;
+    font-size: inherit;
+    padding: 10px;
+    box-shadow: none;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 0 0 28px 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+}

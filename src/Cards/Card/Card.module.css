@@ -1,0 +1,22 @@
+.Card {
+    width: 400px;
+    display: flex;
+    flex-flow: column;
+    justify-content: top;
+    align-items: normal;
+    box-sizing: border-box;
+    border-radius: 28px;
+    box-shadow: 0 0 14px #999;
+    margin: 20px;
+    text-align: center;
+}
+.Card h3,
+.Card p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.Card h3 {
+    padding-top: 15px;
+}
