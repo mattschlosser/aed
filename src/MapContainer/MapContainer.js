@@ -5,8 +5,6 @@ import data from './api';
 
 export class MapContainer extends Component {
   render() {
-    console.log(process.env);
-    console.log(process.env.GOOGLE_API);
     return (
       <Map 
         gestureHandling="greedy" 
