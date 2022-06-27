@@ -1,4 +1,3 @@
-import React from 'react';
 import Mapper from '../../Mapper/Mapper';
 import styles from './Card.module.css'
 const Card = (props) => (

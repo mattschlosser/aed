@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Mapper.module.css';
 const mapper = (props) => (
     <div className={styles.Mapper}>

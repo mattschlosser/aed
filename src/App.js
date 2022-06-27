@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import {Component} from 'react';
 import './App.css';
 import styles from './App.module.css';
-import * as data from './data.json';
+import data from './data.json';
 import Cards from './Cards/Cards';
 import MapContainer from './MapContainer/MapContainer'
 class App extends Component {
@@ -13,8 +13,6 @@ class App extends Component {
     buttonText : "Sort by nearest"
   };
   mapClickHandler = (event, lat, lng, title) => {
-    // idk
-    console.log(lat,lng);
     const newLatlng = {lat,lng};
     this.setState({latlng: newLatlng, currentTitle: title})
   }
