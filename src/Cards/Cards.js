@@ -4,6 +4,7 @@ const cards = (props) =>
     <div style={{marginTop: "375px"}} className={styles.Cards}>
     {props.sites.map(site => (
          <Card 
+            key={site.sitename}
             title={site.sitename} 
             desc={site.sitedesc} 
             lat={site.latitude} 
